@@ -1,7 +1,8 @@
 export const environment = {
     production: false,
     apiBaseUrl: "https://qbotdemotesting.azurewebsites.net/api/Request/",
-
+    selfUrl: "https://qbotdemotesting.azurewebsites.net/api/Request/",
+    
     authConfig: {
         instance: "https://login.microsoftonline.com/",
         tenantId: "dc7302c9-896e-48f7-8918-e0949dd0a78e",
@@ -19,4 +20,6 @@ export const environment = {
     // do not populate the following:
     upn: "",
     tid: "",
+    gid: "",
+    cname: ""
 };
